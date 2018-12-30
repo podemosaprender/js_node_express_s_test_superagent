@@ -4,11 +4,15 @@
   "description": "#FROM: http://www.albertgao.xyz/2017/05/24/how-to-test-expressjs-with-jest-and-supertest/",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
